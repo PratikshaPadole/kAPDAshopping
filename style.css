@@ -20,24 +20,19 @@ a{
     text-decoration: none;
     color: black;
 }
-
-
 .hero h1,h3,h4{
     text-transform: capitalize;
     line-height:0.80;
     
     font-weight: 500;
     text-decoration-color: rgb(26, 1, 1);
-    
-
 }
 button{
     background-color: rgb(173, 150, 189);
     border-radius: 10px;
     font-size: bold;
     transition-duration: 20sec;
-    border-color: rgb(170, 154, 185);
-    
+    border-color: rgb(170, 154, 185);    
 }
 button:hover{
     transition-duration: 20sec;
@@ -49,7 +44,6 @@ nav{
 .container{
      margin:auto;
      padding:0 12px;
-
 }
 nav ul li{
     list-style: none;
@@ -57,7 +51,6 @@ nav ul li{
 }
 nav li a:hover{
     color:rgb(197, 187, 206);
-    
 }
 nav li a{
     transition: 0.3s ease;
@@ -69,7 +62,7 @@ h6{
     margin-top: 13px;
 }
 .hero{
- background-image: url('shop1.jpg');
+ background-image: url('images/shop1.jpg');
  background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -78,10 +71,8 @@ background-size:cover;
 background-position:center;
 height: 90vh;
 width:100%;
-    
 padding-top: 25px;
 padding-left: 5px;
-
 }
 .form button{
     background-color:rgb(190, 113, 136) ;
@@ -100,7 +91,7 @@ padding-left: 5px;
     box-shadow: 1.5px 1.5px 3.5px rgb(133, 172, 182);
 }
 .banner{
-    background-image: url('banner1.jpg');
+    background-image: url('images/banner1.jpg');
     background-repeat:no-repeat;
    -webkit-background-size:cover;
    -moz-background-size:cover;
@@ -114,10 +105,9 @@ padding-left: 5px;
    text-align: center;
    padding-top: 25px;
    padding-left: 5px;
-   
    }
    .banner1{
-    background-image: url('banner3.jpg');
+    background-image: url('images/banner3.jpg');
     background-repeat:no-repeat;
    -webkit-background-size:cover;
    -moz-background-size:cover;
@@ -128,11 +118,10 @@ padding-left: 5px;
    width:50%;
    margin:40px 20px;
    padding-top: 25px;
-   
    padding-left: 5px;
    color:azure;
    text-align: center;
-   }
+}
 .banner:hover,.banner1:hover{
     box-shadow: 2px 2px 3.5px rgb(192, 101, 146);
     border-radius: 8px;
@@ -203,8 +192,7 @@ margin: 15px 0;
 transition: 0.2s ease-in-out;
 }*/
 .star {
-    color:hwb(60 8% 5%)
-     
+    color:hwb(60 8% 5%);    
 }
 .contact a{
     margin: 10px 10px;
@@ -214,7 +202,6 @@ transition: 0.2s ease-in-out;
     color: rgb(98, 27, 100);
     margin-left: 40px;
     margin-right: 40px;
-    
 }
 .card-body h4{
     color:rgb(58, 126, 58);
@@ -227,7 +214,6 @@ footer .women:hover,.about:hover,.ourservice:hover,.contact:hover{
     box-shadow: 2px 2px 3.5px rgb(192, 101, 146);
     border-radius: 8px;
 }
-
 footer{
     background-color: rgb(253, 249, 252);
 }
@@ -256,16 +242,13 @@ div .c1:hover ,.f:hover{
     background-color: rgb(244, 242, 247);
     font-weight: 600;
     border-radius: 8px;
-    background-image: url('bg.jpg');
+    background-image: url('images/bg.jpg');
     background-repeat:no-repeat;
    -webkit-background-size:cover;
    -moz-background-size:cover;
    -o-background-size:cover;
-   
    background-position:center;
-  
-    background-size: cover;
-
+  background-size: cover;
 }
 .form input{
     margin-block-start: 6px;
@@ -273,15 +256,17 @@ div .c1:hover ,.f:hover{
     box-shadow: 1.5px 1.5px 3px rgb(226, 204, 208);
 
 }
-.container .bcd{
+.bcd{
     border: 1px solid rgb(245, 242, 242);
     border-style: outset;
     padding: 12px 20px;
+    margin-top: 20px;
 }
-.container .ABC{
-    border-style: outset;
-    margin-top: 30px;
-    margin:30px 30px 30px 30px;
+.ABC{
+    border-style:outset;
+    margin-top:30px;
+    
+    margin-right: 10px;
     border: 1px solid rgb(240, 234, 234);
     width:100%;
     padding: 20px 20px;
@@ -299,7 +284,7 @@ footer{
 /* shop page */
 .page-head{
     
- background-image: url('women1.jpg');
+ background-image: url('images/women1.jpg');
  background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -368,12 +353,10 @@ padding:5px 5px;
 }
 #blog{
     margin-top: 20px;
-    margin-left:50px;
 }
 .blog-details{
     height:300px;
     width:400px;
-    margin: 30px 20px;
 }
 .pink ,.img ,.white{
     height:200px;
@@ -413,7 +396,7 @@ padding:5px 5px;
 }
 .contact-head{
     
-    background-image: url('contact1.jpg');
+    background-image: url('images/contact1.jpg');
     background-repeat:no-repeat;
    -webkit-background-size:cover;
    -moz-background-size:cover;
@@ -467,4 +450,38 @@ padding:5px 5px;
 }
 .contact-me a li{
 margin: 8px 10px;
+}
+#cart table{
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+    width:100px;
+    text-align: center;
+    
+}
+#cart table td:nth-child(2){
+    width:150px;
+    text-align: center;   
+}
+#cart table td:nth-child(3){
+    width:250px;
+    text-align: center;
+    
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width:150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width:70px;
+    padding: 10px 5px 10px 15px; 
 }
